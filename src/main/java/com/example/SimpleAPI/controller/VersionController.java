@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 
 @RestController
-@RequestMapping("/version")
+@RequestMapping("/v1/version")
 public class VersionController {
 
     private final String VERSION = "1.0.1";
