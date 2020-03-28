@@ -12,7 +12,7 @@ import java.util.HashMap;
 @RequestMapping("/version")
 public class VersionController {
 
-    private final String VERSION = "1.0.0";
+    private final String VERSION = "1.0.1";
 
     @GetMapping
     public ResponseEntity<HashMap<String, String>> getVersion() {
