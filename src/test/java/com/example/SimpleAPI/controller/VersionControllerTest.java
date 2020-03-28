@@ -22,7 +22,7 @@ public class VersionControllerTest {
     @Test
     @DisplayName("Test Get version")
     public void getVersion_return_Version() throws Exception {
-        mockMvc.perform(get("/version/")
+        mockMvc.perform(get("/v1/version/")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk());
     }
