@@ -1,6 +1,9 @@
 trigger:
 - master
 
+variables:
+  SPRING_PROFILES_ACTIVE: test
+
 pool:
   vmImage: 'ubuntu-latest'
 
